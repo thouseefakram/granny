@@ -1,0 +1,147 @@
+.bgimg {
+    background: url(./myrestaurent.jpg)center fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    position: relative;
+
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 40px;
+
+
+}
+html::-webkit-scrollbar{
+    width: 10px;
+}
+html::-webkit-scrollbar-track{
+    background-color: #212529 ;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: rgb(126, 84, 6);
+
+}
+*::selection{
+    background-color: rgb(126, 84, 6);
+    color: wheat;
+}
+.card {
+    background-color: transparent !important;
+    border: 2px solid wheat !important;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px black;
+    z-index: 100;
+
+}
+
+.btn {
+    border: 2px solid rgb(126, 84, 6) !important;
+    background-color: black !important;
+
+
+}
+
+.btn:hover {
+    background-color: wheat !important;
+    color: black !important;
+}
+
+.buttn {
+    text-decoration: none;
+    background-color: rgb(126, 84, 6);
+    color: white !important;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 2px solid wheat;
+
+}
+footer{
+    background-color: #212529;
+    color: wheat;
+    display:flex;
+    
+}
+
+.card-body{
+    
+    margin-left:80px ;
+}
+.clr {
+    font-family: Gabriola;
+}
+
+.buttn:hover {
+    background-color: wheat !important;
+    color: black !important;
+    border: 2px solid rgb(126, 84, 6);
+}
+
+.res:hover {
+    background-color: brown !important;
+
+    color: black;
+}
+
+.cimg {
+    height: 50vh;
+
+}
+
+.col {
+    background-color: transparent !important;
+
+}
+
+
+.granny {
+    font-family: Gabriola;
+}
+footer{
+    padding: 20px;
+}
+.g{
+    color: rgb(126, 84, 6);
+    display: flex;
+    flex-wrap: wrap;
+}
+.f{
+    
+    text-decoration: none;
+    color: wheat;
+}
+
+
+@media screen and (max-width:600px) {
+
+    html {
+        font-size: 70%;
+    }
+
+    .bgimg {
+        height: 250vh;
+
+    }
+
+    .card {
+        width: 400px !important;
+    }
+    .card-title{
+        font-size: 40px;
+    }
+
+    .f{
+        font-size: 8px;
+        text-decoration: none;
+        color: wheat;
+    }
+    
+}
+
